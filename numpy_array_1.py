@@ -1,12 +1,12 @@
 import numpy as np
 
-# criação de um array 1D: [1, 2, 3]
+# array 1D: [1, 2, 3]
 l = [1, 2, 3]
 x = np.array(l)
 print("x:", x)
 print("shape:", x.shape)
 
-# criação de um array 2D: listas aninhadas
+# array 2D: listas aninhadas
 l = [[1, 2], [3, 4]]
 x = np.array(l)
 print("x:\n", x)
